@@ -3,6 +3,7 @@ const app = express()
 
 const PORT = 2000
 
+app.use(cors())
 app.use(express.json())
 
 const { nanoid } = require("nanoid")
